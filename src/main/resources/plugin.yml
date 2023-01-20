@@ -1,0 +1,6 @@
+name: PleasantSkyblock
+main: com.pleasantworld.skyblock.SkyblockPlugin
+version: ${project.version}
+
+authors: [ MishaNeYT ]
+api-version: 1.19
