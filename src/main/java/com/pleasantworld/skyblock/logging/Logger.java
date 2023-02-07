@@ -9,11 +9,7 @@ public final class Logger {
 
     @Contract(pure = true)
     public void log(@NotNull LogType type, String message) {
-
-        switch (type) {
-            case INFO: case WARNING: case ERROR:
-                System.out.println(type.getColor() + "[Skyblock] " + message);
-                break;
-        }
+        System.out.println(type.getColor() + "[Skyblock] " + message);
     }
+    
 }
